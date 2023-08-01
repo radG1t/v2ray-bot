@@ -4920,14 +4920,6 @@ if($userInfo['step'] == "showAccount" and $text != $cancelText){
                     ['text'=>"« نام اکانت »",'callback_data'=>"wizwizch"],
                     ],
                 [
-                    ['text'=>$upload?? " ",'callback_data'=>"wizwizch"],
-                    ['text'=>"√ آپلود √",'callback_data'=>"wizwizch"],
-                    ],
-                [
-                    ['text'=>$download??" ",'callback_data'=>"wizwizch"],
-                    ['text'=>"√ دانلود √",'callback_data'=>"wizwizch"],
-                    ],
-                [
                     ['text'=>$leftMb??" ",'callback_data'=>"wizwizch"],
                     ['text'=>"~ حجم باقیمانده ~",'callback_data'=>"wizwizch"],
                     ],
@@ -4941,7 +4933,7 @@ if($userInfo['step'] == "showAccount" and $text != $cancelText){
                     ],
                 [['text'=>"صفحه اصلی",'callback_data'=>"mainMenu"]]
                 ]]);
-                sendMessage("🔰مشخصات حسابت:",$keys,"MarkDown");
+                sendMessage("🔰مشخصات کانفیگت :",$keys,"MarkDown");
                 break;
             }
         }
