@@ -106,11 +106,11 @@ if (preg_match('/^\/([Ss]tart)/', $text) or $text == '⤵️ برگرد به م�
     }
     if(isset($data) and $data == "mainMenu"){
         $res = editText($message_id, 'This is just a simple bot for our users to get their V2ray configs information. 
-	tap on /start
+tap on /start to use :)
 ', $mainKeys);
         if(!$res->ok){
             sendMessage('This is just a simple bot for our users to get their V2ray configs information. 
-	tap on /start
+tap on /start to use :)
 ', $mainKeys);
         }
     }else{
@@ -132,7 +132,7 @@ if (preg_match('/^\/([Ss]tart)/', $text) or $text == '⤵️ برگرد به م�
             $keys, "html",$admin);
         }
         sendMessage('This is just a simple bot for our users to get their V2ray configs information. 
-	tap on /start
+tap on /start to use :)
 ',$mainKeys);
     }
 }
